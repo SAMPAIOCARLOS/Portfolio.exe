@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    color: white;
+    background-color: black;
+    background-image: url(../img/pexels-danny-meneses-943096.jpg);
+    font-family: arial, Arial, Helvetica, sans-serif;
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-image: linear-gradient(to right, #242222a3, transparent);
+    border-radius: 30px;
+}
+li{
+    padding: 10px;
+    border-radius: 30px;
+    transition-duration: 0.8s;
+}
+li:hover{
+    background-color: darkgray;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 5px solid aqua;
+}
+
+
+#center {
+   text-align: center;
+}
+h1{
+    color: aqua;
+}
+p{
+    min-width: 100%;
+    text-align: justify;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin: 2px;
+}
