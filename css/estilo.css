@@ -79,3 +79,7 @@ footer p{
 footer img{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.285);
 }
+footer img:hover{
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
