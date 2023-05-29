@@ -39,6 +39,11 @@ header img{
    height: 150px;
    border-radius: 50%;
    border: 5px solid aqua;
+   
+}
+header img:hover{
+    scale: 1.1;
+    transition-duration: 0.3s;
 }
 
 header h1{
